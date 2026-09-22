@@ -1,0 +1,181 @@
+/* RESET & BASIC STYLING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HEADER STYLE */
+header {
+    background-color: #0f4c81;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.jumbotron {
+    padding: 3rem 2rem;
+    text-align: center;
+    background: linear-gradient(rgba(15, 76, 129, 0.8), rgba(15, 76, 129, 0.9)), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.jumbotron p {
+    font-size: 1.1rem;
+    color: #e0e0e0;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: #0b3c65;
+    padding: 0.8rem 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #64ffda;
+}
+
+/* CONTENT CONTAINER (FLEXBOX LAYOUT) */
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 2rem auto;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+/* MAIN CONTENT */
+main {
+    flex: 3;
+    min-width: 300px;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.card h2 {
+    color: #0f4c81;
+    margin-bottom: 1rem;
+}
+
+.featured-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    margin-bottom: 1rem;
+    color: #555;
+    text-align: justify;
+}
+
+/* ASIDE (BIODATA) */
+aside {
+    flex: 1;
+    min-width: 250px;
+}
+
+.profile-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    text-align: center;
+    position: sticky;
+    top: 2rem;
+}
+
+.profile-card h3 {
+    color: #0f4c81;
+    margin-bottom: 1rem;
+}
+
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid #0f4c81;
+}
+
+.profile-card .name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #222;
+}
+
+.profile-card .role {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.profile-card hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 1rem 0;
+}
+
+.profile-card .bio {
+    font-size: 0.95rem;
+    color: #555;
+    text-align: left;
+}
+
+/* FOOTER */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+}
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+    }
+    
+    .profile-card {
+        position: static;
+    }
+}
