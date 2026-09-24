@@ -1,0 +1,19 @@
+memberikan warna merah
+h1 {
+    color: red;
+    font-size: 50px;
+
+}
+
+/* untuk h2 warna biru ukuran font 25px */
+h2 {
+    color: #2600fe;
+    font-size: 25px;
+}
+
+/*untuk element p berwaarna hijau ukuran font 20px */
+
+p {
+    color: green;
+    font-size: 32px;
+}
