@@ -89,3 +89,16 @@ body {
     font-size: 16px;
     margin-bottom: 10px;
 }
+
+/*untuk footer*/
+.footer {
+    background-color: navy;
+    height: 50px;
+    padding: 2px;
+}
+ 
+.footer .copyright {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
