@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>
+                Web Profil Firman
+        </title>
+        <!-- css bootstrap dan bootstrap js -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+        <!-- css animasi -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- css animasi -->
+
+        <!-- untuk style.css -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- untuk style.css -->
+</head>
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Portofolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <!-- pindah menu ke kanan -->
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portofolio">Portofolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- navbar -->
+
+<section class="megatron text-center">
+        <img src="img/profil a1.jpeg" width="200" class="rounded-circle img-thumbnail">
+        <h1 class="display-4 fw-bold font-custom">Mohamad Firman Ramadhan</h1>
+        <link rel="stylesheet" href="style.css">
+        <p class="lead">Web Developer | Data Analytics</p>
+</section>
+
+<!-- about -->
+<section id="about">
+        <div class="container">
+
+                <div class="row text-center mb-4">
+                        <div class="col aos-init" data-aos="flip-up" data-aos-duration="3000">
+                                <h2 class="display-6">About Me</h2>
+                        </div>
+                </div>
+
+                <div class="row">
+                        <div class="col aos-init" data-aos="fade-right" data-aos-duration="2000">
+                                <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                        </div>
+                        <div class="col aos-init" data-aos="fade-left" data-aos-duration="2000">
+                                <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                        </div>
+                </div>
+
+
+        </div>
+</section>
+<!-- about -->
+
+<!-- portofolio -->
+<section id="portofolio">
+        <div class="container">
+
+                <div class="row text-center mb-4">
+                        <div class="col aos-init" data-aos="zoom-out" data-aos-duration="3000">
+                                <h2 class="display-6">Portofolio</h2>
+                        </div>
+                </div>
+
+                <div class="row mb-2 text-center">
+                        <div class="col aos-init" data-aos="zoom-in-right" data-aos-duration="2000">
+                                <img src="img/portofolio1.jpg" class="img-thumbnail">
+                        </div>
+                        <div class="col aos-init" data-aos="flip-left" data-aos-duration="1000">
+                                <img src="img/portofolio2.jpg" class="img-thumbnail">
+                        </div>
+                        <div class="col aos-init" data-aos="flip-right" data-aos-duration="1000">
+                                <img src="img/potofolio3.jpg" class="img-thumbnail">
+                        </div>
+                        <div class="col aos-init" data-aos="zoom-in-left" data-aos-duration="2000">
+                                <img src="img/images4.jpg" class="img-thumbnail">
+                        </div>
+
+                </div>
+
+                <div class="row mb-2 text-center">
+                        <div class="col aos-init" data-aos="zoom-in-right" data-aos-duration="2000">
+                                <img src="img/portofolio5.jpeg" class="img-thumbnail">
+                        </div>
+                        <div class="col aos-init" data-aos="flip-left" data-aos-duration="1000">
+                                <img src="img/portofolio6.jpeg" class="img-thumbnail">
+                        </div>
+                        <div class="col aos-init" data-aos="flip-right" data-aos-duration="1000">
+                                <img src="img/portofolio7.jpeg" class="img-thumbnail">
+                        </div>
+                        <div class="col aos-init" data-aos="zoom-in-left" data-aos-duration="2000">
+                                <img src="img/portofolio8.jpeg" class="img-thumbnail">
+                        </div>
+                </div>
+
+        </div>
+</section>
+<!-- portofolio -->
+
+<!-- contact -->
+<section id="contact">
+        <div class="container">
+                <div class="row text-center mb-4">
+                        <div class="col aos-init" data-aos="fade-up" data-aos-duration="3000">                                
+                                <h2 class="display-6">Contact</h2>
+                        </div>
+                </div>
+
+                <div class="row">
+                        <div class="col aos-init" data-aos="flip-down" data-aos-duration="1000">
+                                <form>
+
+                                  <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                  </div>
+
+                                  <div class="mb-3">
+                                    <label for="exampleInputName" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="exampleInputName">
+                                  </div>
+
+                                  <div class="mb-3">
+                                    <label for="exampleInputGender" class="form-label">Gender</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                          <option value="L" selected="selected">Male</option>
+                                          <option value="P">Female</option>
+                                        </select>
+                                  </div>
+
+                                  <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                  </div>
+
+                                  <button type="submit" class="btn btn-primary btn-lg">Send</button> 
+                                  <button type="button" class="btn btn-danger btn-lg">Reset</button>
+                                </form>
+                        </div>
+                </div>
+
+        </div>
+</section>
+<!-- contact -->
+
+<!-- footer -->
+<footer class="footer bg-dark mt-5 p-2">
+        <p class="lead text-white text-center mt-1">
+                Created with Mohamad Firman Ramadhan © 2026 Alright Reserved.
+        </p>
+</footer>
+<!-- footer -->
+
+
+        <!-- js animasi -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>        
+        <!-- js animasi -->
+
+</body></html>
