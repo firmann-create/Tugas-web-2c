@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Penggunaan Object</title>
+</head>
+<body>
+ 
+    <script type="text/javascript">
+        // membuat Object
+ 
+        let obj = {
+            penulis : "Mohamad Firman Ramadhan",
+            buku : [
+                "Modul Pemrograman Dasar",
+                "Modul Pemrograman Mobile"
+            ],
+            hal : 109,
+            isTerbit : true
+        }
+ 
+        console.log(obj);
+    </script>
+
+    <script type="text/javascript">
+        //membuat object dengan construtor
+ 
+        function orang(nama,gender,umur,alamat) {
+            this.nama = nama;
+            this.gender = gender;
+            this.umur = umur;
+            this.alamat = alamat;
+        }
+ 
+        //membuat instance object
+        let Dewasa = new orang("Rudy", "L", 30,['jalan kyai mansur', 'doko sragi', 'kab kediri']) ;
+ 
+        console.log(Dewasa);
+    </script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+ 
+</body>
+</html>
